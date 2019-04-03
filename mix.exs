@@ -17,12 +17,7 @@ defmodule ContractManager.Mixfile do
   # Configuration for the OTP application.
   #
   # Type `mix help compile.app` for more information.
-  def application do
-    [
-      mod: {ContractManager.Application, []},
-      extra_applications: [:logger, :runtime_tools]
-    ]
-  end
+
 
   # Specifies which paths to compile per environment.
   defp elixirc_paths(:test), do: ["lib", "test/support", "test/factory"]
