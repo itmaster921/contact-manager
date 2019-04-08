@@ -10,6 +10,7 @@ config :contract_manager, ContractManagerWeb.Endpoint,
 config :logger, level: :warn
 
 # Configure your database
+#
 config :contract_manager, ContractManager.Repo,
   adapter: Ecto.Adapters.Postgres,
   username: "postgres",
