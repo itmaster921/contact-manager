@@ -1,5 +1,9 @@
 use Mix.Config
 
+# In this file, we keep production configuration that
+# you'll likely want to automate and keep away from
+# your version control system.
+
 config :contract_manager, ContractManagerWeb.Endpoint,
   load_from_system_env: true,
   url: [scheme: "https", host: "ct-man.herokuapp.com", port: 443],
